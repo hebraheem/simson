@@ -1,16 +1,16 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #ffffff;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #000;
 }
 p {
-  color: white;
+  color: #000;
   font: 1.8rem;
 }
 
@@ -28,6 +28,10 @@ p {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+.start {
+  width: 100px;
+  height: 45px;
 }
 
 .game-over {
