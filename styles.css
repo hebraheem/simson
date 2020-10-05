@@ -32,6 +32,7 @@ p {
 .start {
   width: 100px;
   height: 45px;
+  margin: auto;
 }
 
 .game-over {

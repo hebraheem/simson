@@ -13,6 +13,7 @@ $(".start").on("click",function() {
     nextSequence();
     started = true;
     $("p").css("display", "none")
+    $(".start").css("display", "none");
   }
 });
 
@@ -43,7 +44,8 @@ function checkAnswer(currentLevel) {
       setTimeout(function () {
         $("body").removeClass("game-over");
       }, 200);
-      $("p").css("display", "block")
+      $("p").css("display", "block");
+      $(".start").css("display", "block");
 
 
       startOver();
